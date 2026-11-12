@@ -1,0 +1,20 @@
+# Model artifacts live on Hugging Face
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.gguf
+*.zip
+checkpoints/
+
+# Local state and credentials
+.env
+.env.*
+!.env.example
+*token*.txt
+__pycache__/
+.ipynb_checkpoints/
+.cache/
+.venv/
+venv/
+.gu-test-*/
